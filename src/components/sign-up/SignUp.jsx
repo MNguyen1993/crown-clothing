@@ -1,6 +1,6 @@
 import React from 'react';
 import FormInput from '../form-input/FormInput';
-import Button from '../button/Button';
+import CustomButton from '../custom-button/CustomButton';
 
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 
@@ -90,7 +90,7 @@ class SignUp extends React.Component {
 						required
 					/>
 
-					<Button type="submit">Sign Up</Button>
+					<CustomButton type="submit">Sign Up</CustomButton>
 				</form>
 			</div>
 		);
